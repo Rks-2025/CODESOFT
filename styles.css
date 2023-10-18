@@ -1,0 +1,60 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b26017;
+}
+
+header {
+    background-color: blue;
+    color: pink;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #8a9518;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+footer {
+    background-color: #041066;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Adding color to the "Contact Us" button */
+button#contactButton {
+    background-color:white;
+    color: #ed0000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style the button when hovered over */
+button#contactButton:hover {
+    background-color: white
+    ;
+}
